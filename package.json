@@ -1,6 +1,6 @@
 {
   "name": "@hafael/autum-ui",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "UI components for Autum projects.",
   "main": "dist/library.js",
   "module": "dist/library.mjs",
