@@ -15,12 +15,12 @@
     "vue": "^3.2"
   },
   "dependencies": {
-    "@heroicons/vue": "^1.0.5",
+    "@heroicons/vue": "^1.0",
     "vue-tel-input": "^6.0.0-beta.4",
-    "vue-currency-input": "^2.1.0",
-    "moment": "^2.29.1",
-    "lodash": "^4.17.19",
-    "maska": "^1.4.5"
+    "vue-currency-input": "^2.1",
+    "moment": "^2.29",
+    "lodash": "^4.17",
+    "maska": "^1.4"
   },
   "keywords": [],
   "author": "",
