@@ -26,6 +26,8 @@
     import { XIcon} from '@heroicons/vue/outline'
 
     export default {
+        name: 'JetDialogModal',
+        
         emits: ['close'],
 
         components: {

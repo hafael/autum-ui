@@ -125,7 +125,7 @@
 </style>
 
 <script>
-    import { QrcodeStream } from 'vue3-qrcode-reader'
+    import { QrcodeStream } from 'vue-qrcode-reader'
     import JetInput from '@/Jetstream/Input'
     import JetSecondaryButton from '@/Jetstream/SecondaryButton'
     import JetDialogModal from '@/Jetstream/DialogModal'
@@ -140,6 +140,7 @@
     };
 
     export default {
+        name: 'SearchContactAddress',
         components: {
            JetInput,
            JetSecondaryButton,

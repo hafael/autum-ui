@@ -10,6 +10,7 @@
     import { MoonIcon, SunIcon } from '@heroicons/vue/outline'
     
     export default {
+        name: 'ToggleDarkMode',
         components: {
             MoonIcon,
             SunIcon,

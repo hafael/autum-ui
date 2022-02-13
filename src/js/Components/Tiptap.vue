@@ -13,6 +13,7 @@
     import Typography from '@tiptap/extension-typography'
     
     export default {
+        name: 'Tiptap',
         components: {
             EditorContent,
         },

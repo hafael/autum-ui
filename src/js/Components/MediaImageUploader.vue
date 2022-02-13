@@ -78,6 +78,7 @@
     import { PhotographIcon, ZoomInIcon, TrashIcon } from '@heroicons/vue/outline'
     
     export default {
+        name: 'MediaImageUploader',
         components: {
             JetButton,
             JetSecondaryButton,

@@ -66,6 +66,8 @@
     import { BriefcaseIcon, CogIcon, UserCircleIcon, PuzzleIcon, UserAddIcon, UserGroupIcon, LogoutIcon } from '@heroicons/vue/outline'
 
     export default {
+        name: 'NavbarSettingsDropdown',
+
         components: {
             JetDropdown,
             JetDropdownLink,

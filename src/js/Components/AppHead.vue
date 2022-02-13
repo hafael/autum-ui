@@ -25,6 +25,7 @@
 <script>
     
     export default {
+        name: 'AppHead',
         props: {
             title: String,
         },
