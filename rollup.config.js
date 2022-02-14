@@ -3,6 +3,7 @@ import peerDepsExternal from 'rollup-plugin-peer-deps-external'
 import alias from '@rollup/plugin-alias';
 import resolve from '@rollup/plugin-node-resolve';
 import postcss from 'rollup-plugin-postcss';
+import commonjs from 'rollup-plugin-commonjs';
 
 module.exports = {
   input: 'src/js/index.js',
@@ -17,6 +18,9 @@ module.exports = {
     }
   ],
   plugins: [
+    commonjs({
+      include: 'node_modules/**'
+    }),
     vue(), 
     peerDepsExternal(),
     postcss(),
