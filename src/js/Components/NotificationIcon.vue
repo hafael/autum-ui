@@ -11,7 +11,7 @@
 
 <script>
 
-    import { BellIcon } from '@heroicons/vue/outline'
+    import { BellIcon } from '@heroicons/vue/24/outline'
     
     export default {
 

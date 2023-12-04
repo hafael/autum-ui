@@ -23,7 +23,7 @@
 
 <script>
     import Modal from './Modal'
-    import { XIcon} from '@heroicons/vue/outline'
+    import { XIcon} from '@heroicons/vue/24/outline'
 
     export default {
         name: 'JetDialogModal',

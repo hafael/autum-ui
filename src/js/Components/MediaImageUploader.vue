@@ -75,7 +75,7 @@
     import JetInputError from '@/Jetstream/InputError'
     import JetLabel from '@/Jetstream/Label'
     import JetDialogModal from '@/Jetstream/DialogModal';
-    import { PhotographIcon, ZoomInIcon, TrashIcon } from '@heroicons/vue/outline'
+    import { PhotographIcon, ZoomInIcon, TrashIcon } from '@heroicons/vue/24/outline'
     
     export default {
         name: 'MediaImageUploader',

@@ -40,7 +40,7 @@ export default {
             default: '48'
         },
         contentClasses: {
-            default: () => ['py-1', 'bg-white']
+            default: () => ['py-1', 'bg-white dark:bg-gray-700']
         }
     },
 
@@ -65,6 +65,7 @@ export default {
         widthClass() {
             return {
                 '48': 'w-48',
+                '72': 'w-72',
             }[this.width.toString()]
         },
 

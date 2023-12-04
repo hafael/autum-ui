@@ -23,7 +23,7 @@
 
 <script>
     import JetInput from '@/Jetstream/Input'
-    import { EyeOffIcon, EyeIcon } from '@heroicons/vue/outline'
+    import { EyeOffIcon, EyeIcon } from '@heroicons/vue/24/outline'
 
     export default {
         components: {

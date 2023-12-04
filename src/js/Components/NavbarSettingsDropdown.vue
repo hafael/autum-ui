@@ -63,7 +63,7 @@
 <script>
     import JetDropdown from '@/Jetstream/Dropdown'
     import JetDropdownLink from '@/Jetstream/DropdownLink'
-    import { BriefcaseIcon, CogIcon, UserCircleIcon, PuzzleIcon, UserAddIcon, UserGroupIcon, LogoutIcon } from '@heroicons/vue/outline'
+    import { BriefcaseIcon, CogIcon, UserCircleIcon, PuzzleIcon, UserAddIcon, UserGroupIcon, LogoutIcon } from '@heroicons/vue/24/outline'
 
     export default {
         name: 'NavbarSettingsDropdown',

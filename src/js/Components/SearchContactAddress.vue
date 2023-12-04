@@ -129,7 +129,7 @@
     import JetInput from '@/Jetstream/Input'
     import JetSecondaryButton from '@/Jetstream/SecondaryButton'
     import JetDialogModal from '@/Jetstream/DialogModal'
-    import { SearchCircleIcon, UserAddIcon, UserRemoveIcon, CameraIcon, XCircleIcon } from '@heroicons/vue/outline'
+    import { SearchCircleIcon, UserAddIcon, UserRemoveIcon, CameraIcon, XCircleIcon } from '@heroicons/vue/24/outline'
 
     const detectWebcam = (callback) => {
         let md = navigator.mediaDevices;

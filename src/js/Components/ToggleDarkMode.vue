@@ -7,7 +7,7 @@
 
 <script>
 
-    import { MoonIcon, SunIcon } from '@heroicons/vue/outline'
+    import { MoonIcon, SunIcon } from '@heroicons/vue/24/outline'
     
     export default {
         name: 'ToggleDarkMode',
